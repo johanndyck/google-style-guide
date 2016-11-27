@@ -1,28 +1,48 @@
 <html>
   <head>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.4-rc2/foundation.min.css">
 	<link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
-  <h4>Change the Headline font</h4>
-   <ul class="switcher switcherH1">
-       <li><a href="#" class="helvetica">Helvetica</a></li>
-       <li><a href="#" class="georgia">Georgia</a></li>
-       <li><a href="#" class="lato">Lato</a></li>
-       <li><a href="#" class="playfair">Playfair Display</a></li>
-       <li><a href="#" class="weight">Unbold</a></li>
-       <li><a href="#" class="style">Italicize</a></li>
-       <li><a href="#" class="caps">Make All Caps</a></li>
-      </ul>
+  <div class="row">
+      <div class="small-12 columns">
+              <div class="target">
+        <h1 class=" ">The quick brown fox jumps over the lazy dog.</h1>
+        <h2 class=" ">The five boxing wizards jump quickly.</h2>
+        <p class=" ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis repudiandae dolor voluptate commodi adipisci perferendis in dolorum laborum, architecto itaque sapiente harum impedit officiis? Natus quo tempore harum saepe laboriosam?</p>
+    </div>
+      </div>
+  </div>
+  <div class="row">
+      <div class="small-4 columns">
+          <h4>Change the Headline font</h4>
+           <ul class="switcher switcherH1">
+               <li><a href="#" class="helvetica">Helvetica</a></li>
+               <li><a href="#" class="georgia">Georgia</a></li>
+               <li><a href="#" class="lato">Lato</a></li>
+               <li><a href="#" class="playfair">Playfair Display</a></li>
+               <li><a href="#" class="weight">Bold</a></li>
+               <li><a href="#" class="style">Italicize</a></li>
+               <li><a href="#" class="caps">Make All Caps</a></li>
+          </ul>
+
+  
+      </div>
+      <div class="small-4 columns"> 
+  
 <h4>Change the Subhead font</h4>
    <ul class="switcher switcherH2">
        <li><a href="#" class="helvetica">Helvetica</a></li>
        <li><a href="#" class="georgia">Georgia</a></li>
        <li><a href="#" class="lato">Lato</a></li>
        <li><a href="#" class="playfair">Playfair Display</a></li>
-       <li><a href="#" class="weight">Unbold</a></li>
+       <li><a href="#" class="weight">Bold</a></li>
        <li><a href="#" class="style">Italicize</a></li>
        <li><a href="#" class="caps">Make All Caps</a></li>
    </ul>
+   
+         </div>
+      <div class="small-4 columns">
    <h4>Change the body copy font</h4>
    <ul class="switcher switcherP">
        <li><a href="#" class="helvetica">Helvetica</a></li>
@@ -30,17 +50,25 @@
        <li><a href="#" class="lato">Lato</a></li>
        <li><a href="#" class="playfair">Playfair Display</a></li>
    </ul>
-    <div class="target">
-        <h1 class="bold">The quick brown fox jumps over the lazy dog.</h1>
-        <h2 class="bold">The five boxing wizards jump quickly.</h2>
-        <p class=" ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis repudiandae dolor voluptate commodi adipisci perferendis in dolorum laborum, architecto itaque sapiente harum impedit officiis? Natus quo tempore harum saepe laboriosam?</p>
-    </div>
-    <label for="headline">Change the Headline</label>
+   
+            </div>
+  </div>
+   
+<div class="row">
+    <div class="small-6 columns">
+        <label for="headline">Change the Headline</label>
     <input type="text" id="headline"><br>
+    </div>
+    <div class="small-6 columns">
+      <label for="subhead">Change the Subhead</label>
+    <input type="text" id="subhead"><br> 
+    </div>
+</div>
 
-    <label for="subhead">Change the Subhead</label>
-    <input type="text" id="subhead"><br>        
 
+         
+
+    <script src="https://cdn.jsdelivr.net/foundation/6.2.4-rc2/foundation.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc=" crossorigin="anonymous"></script>
     <script src="js/app.js"></script>
   </body>
